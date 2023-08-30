@@ -13,6 +13,7 @@ public class TestBase1 {
     WebDriver driver;
 
     @BeforeMethod
+    //метод до теста
     public void setUp() {
         driver = new ChromeDriver();
         driver.get("https://demowebshop.tricentis.com/");
