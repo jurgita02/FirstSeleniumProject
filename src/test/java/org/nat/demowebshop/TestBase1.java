@@ -40,7 +40,7 @@ public class TestBase1 {
         }
     }
 
-    @AfterMethod(enabled = false)
+    @AfterMethod        //(enabled = false)
     public void tearDown() {
         driver.quit();
     }
