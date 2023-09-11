@@ -1,0 +1,10 @@
+8984 [Test worker] INFO  org.nat.demowebshop.TestBase1 -- Start test
+14266 [Test worker] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+14270 [Test worker] INFO  org.nat.demowebshop.TestBase1 -- Start test
+28664 [Test worker] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+28668 [Test worker] INFO  org.nat.demowebshop.TestBase1 -- Start test
+39371 [Test worker] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+39376 [Test worker] INFO  org.nat.demowebshop.TestBase1 -- Start test
+40660 [Test worker] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+40662 [Test worker] INFO  org.nat.demowebshop.TestBase1 -- Start test
+42405 [Test worker] INFO  org.nat.demowebshop.TestBase1 -- Stop test
