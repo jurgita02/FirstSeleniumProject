@@ -1,47 +1,41 @@
 package org.nat.demowebshop;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
+import nat.demowebshop.framework.ApplicationManager;
+import org.openqa.selenium.remote.BrowserType;
 
-import java.util.NoSuchElementException;
-import java.util.concurrent.TimeUnit;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
+
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
 
 public class TestBase1 {
-    WebDriver driver;
+    protected static ApplicationManager app = new ApplicationManager(System.getProperty("browser", BrowserType.CHROME));
+
+    Logger logger = LoggerFactory.getLogger(TestBase1.class);
+
+    // @BeforeMethod //открывает в разных окнах браузера
+    @BeforeSuite //открывает в одном окне браузера
+    public void setUp() {
+        app.init();
+    }
+
+    // @AfterMethod (enabled = true)
+    @AfterSuite
+    public void tearDown() {
+        app.stop();
+    }
+
 
     @BeforeMethod
-    //метод до теста
-    public void setUp() {
-        driver = new ChromeDriver();
-        driver.get("https://demowebshop.tricentis.com/");
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+    public void startTest() {
+        logger.info("Start test");
     }
-
-    public boolean isHomeComponentPresent() {
-        return driver.findElements(By.cssSelector("#nivo-slider")).size()>0;
-    }
-
-    //универсальный метод поиска одного элемента из списка:
-    public boolean isElementPresent(By locator) {
-        return driver.findElements(locator).size()>0;
-    }
-
-    //универсальный метод поиска одного элемента:
-    public boolean isElementPresent2(By locator) {
-        try {
-            driver.findElement(locator);
-            return true;
-        }catch (NoSuchElementException ex) {
-            return false;
-        }
-    }
-
-    @AfterMethod        //(enabled = false)
-    public void tearDown() {
-        driver.quit();
+    @AfterMethod
+    public void stopTest(){
+        logger.info("Stop test");
     }
 }
+
