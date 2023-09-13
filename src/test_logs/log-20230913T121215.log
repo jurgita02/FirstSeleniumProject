@@ -1,0 +1,13 @@
+3052 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\AIT TR Student\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+9549 [main] INFO  org.nat.demowebshop.TestBase1 -- Start test
+11091 [main] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+11095 [main] INFO  org.nat.demowebshop.TestBase1 -- Start test
+12741 [main] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+12749 [main] INFO  org.nat.demowebshop.TestBase1 -- Start test
+12822 [main] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+12828 [main] INFO  org.nat.demowebshop.TestBase1 -- Start test
+29090 [main] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+29093 [main] INFO  org.nat.demowebshop.TestBase1 -- Start test
+42407 [main] INFO  org.nat.demowebshop.TestBase1 -- Stop test

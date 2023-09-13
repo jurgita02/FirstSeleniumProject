@@ -4,9 +4,18 @@ import nat.demowebshop.models.User;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-       public class CreateAccountTests1 extends TestBase1 {
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+public class CreateAccountTests1 extends TestBase1 {
          @BeforeMethod
         public void ensurePrecondition() {
             if (!app.getUser().isLoginLinkPresent()){
@@ -27,7 +36,8 @@ import org.testng.annotations.Test;
                app.getUser().clickOnRegistrationButton();
                Assert.assertTrue(app.getUser().isAlertPresent());
         }
-       }
+
+}
 
 
 

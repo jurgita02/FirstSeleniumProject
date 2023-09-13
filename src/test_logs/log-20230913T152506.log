@@ -1,0 +1,7 @@
+2302 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\AIT TR Student\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+9225 [main] INFO  org.nat.demowebshop.TestBase1 -- Start test
+15116 [main] INFO  org.nat.demowebshop.TestBase1 -- PASSED: AddProductPositiveTest
+15117 [main] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+15118 [main] ERROR org.nat.demowebshop.TestBase1 -- ******************************

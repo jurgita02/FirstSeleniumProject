@@ -1,0 +1,27 @@
+2377 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\AIT TR Student\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+6596 [main] INFO  org.nat.demowebshop.TestBase1 -- Start test
+10440 [main] INFO  org.nat.demowebshop.TestBase1 -- PASSED: existedUserRegistrationNegativeTest
+10441 [main] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+10441 [main] ERROR org.nat.demowebshop.TestBase1 -- ******************************
+10451 [main] INFO  org.nat.demowebshop.TestBase1 -- Start test
+16090 [main] INFO  org.nat.demowebshop.TestBase1 -- PASSED: AddProductPositiveTest
+16091 [main] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+16092 [main] ERROR org.nat.demowebshop.TestBase1 -- ******************************
+16099 [main] INFO  org.nat.demowebshop.TestBase1 -- Start test
+28131 [main] INFO  org.nat.demowebshop.TestBase1 -- PASSED: UserLoginNegativeWithoutEmailTest
+28132 [main] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+28132 [main] ERROR org.nat.demowebshop.TestBase1 -- ******************************
+28136 [main] INFO  org.nat.demowebshop.TestBase1 -- Start test
+29771 [main] INFO  org.nat.demowebshop.TestBase1 -- PASSED: UserLoginPositiveTest
+29772 [main] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+29772 [main] ERROR org.nat.demowebshop.TestBase1 -- ******************************
+29774 [main] INFO  org.nat.demowebshop.TestBase1 -- Start test
+51716 [main] INFO  org.nat.demowebshop.TestBase1 -- PASSED: UserLoginPositiveTestWithScreencast
+51717 [main] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+51717 [main] ERROR org.nat.demowebshop.TestBase1 -- ******************************
+51719 [main] INFO  org.nat.demowebshop.TestBase1 -- Start test
+51767 [main] INFO  org.nat.demowebshop.TestBase1 -- PASSED: isHomeComponentPresentTest
+51767 [main] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+51767 [main] ERROR org.nat.demowebshop.TestBase1 -- ******************************

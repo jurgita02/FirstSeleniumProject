@@ -1,0 +1,7 @@
+2110 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\AIT TR Student\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+7256 [main] INFO  org.nat.demowebshop.TestBase1 -- Start test
+8077 [main] ERROR org.nat.demowebshop.TestBase1 -- FAILED: UserLoginPositiveTestWithScreencast Screenshot: C:\QA\QA25_FirstSeleniumProgect\screenshots\screen1694608726.png
+8078 [main] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+8078 [main] ERROR org.nat.demowebshop.TestBase1 -- ******************************

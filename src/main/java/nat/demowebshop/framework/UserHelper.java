@@ -30,6 +30,7 @@ public class UserHelper extends HelperBase{
         type(By.cssSelector("#Password"), user.getPassword());
     }
 
+
     public boolean isLogOutButtonPresent() {
         return isElementPresent(By.cssSelector(".ico-logout"));
     }
@@ -43,7 +44,16 @@ public class UserHelper extends HelperBase{
         fillLoginRegistrationForm(new User().setEmail("n010@gmail.com").setPassword("Pnata2023!"));
         clickLoginButton2();
     }
+    public void loginWithScreencast() {
+        clickOnLoginButton();
+        pause(500);
+        fillLoginRegistrationForm(new User().setEmail("n010@gmail.com").setPassword("Pnata2023!"));
+        pause(1000);
+        clickLoginButton2();
+    }
     public void clickLoginButton2() {
         click(By.cssSelector(".button-1.login-button"));
     }
+
+
 }

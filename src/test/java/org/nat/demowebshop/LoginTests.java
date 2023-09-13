@@ -6,6 +6,9 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import java.awt.*;
+import java.io.IOException;
+
 //test for check login
 public class LoginTests extends TestBase1 {
     @BeforeMethod
@@ -27,5 +30,19 @@ public class LoginTests extends TestBase1 {
         app.getUser().fillLoginRegistrationForm(new User().setPassword("Pnata2023!"));
         app.getUser().clickLoginButton2();
         Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//li[text()='No customer account found']")));
+    }
+
+    @Test
+    public void UserLoginPositiveTestWithScreencast() throws IOException, AWTException {
+        app.getUser().deleteScreencast();
+        app.getUser().startRecording();
+        app.getUser().loginWithScreencast();
+        Assert.assertTrue(app.getUser().isLogOutButtonPresent());
+
+        app.getUser().pause(2000);
+
+        app.getUser().stopRecording();
+
+
     }
 }
