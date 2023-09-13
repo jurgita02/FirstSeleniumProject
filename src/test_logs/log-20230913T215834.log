@@ -1,0 +1,15 @@
+2085 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\AIT TR Student\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+6987 [main] INFO  org.nat.demowebshop.TestBase1 -- Start test
+10269 [main] INFO  org.nat.demowebshop.TestBase1 -- PASSED: addNewUserPositiveTestFromDataProviderWithCSV
+10269 [main] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+10269 [main] ERROR org.nat.demowebshop.TestBase1 -- ******************************
+10271 [main] INFO  org.nat.demowebshop.TestBase1 -- Start test
+23616 [main] INFO  org.nat.demowebshop.TestBase1 -- PASSED: addNewUserPositiveTestFromDataProviderWithCSV
+23618 [main] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+23618 [main] ERROR org.nat.demowebshop.TestBase1 -- ******************************
+23623 [main] INFO  org.nat.demowebshop.TestBase1 -- Start test
+37501 [main] INFO  org.nat.demowebshop.TestBase1 -- PASSED: addNewUserPositiveTestFromDataProviderWithCSV
+37501 [main] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+37501 [main] ERROR org.nat.demowebshop.TestBase1 -- ******************************

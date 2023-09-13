@@ -1,5 +1,6 @@
 package nat.demowebshop.framework;
 
+import nat.demowebshop.models.NewUser;
 import nat.demowebshop.models.User;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -29,6 +30,15 @@ public class UserHelper extends HelperBase{
         type(By.cssSelector("#Email"), user.getEmail());
         type(By.cssSelector("#Password"), user.getPassword());
     }
+
+    public void fillNewUserForm(NewUser newUser) {
+        type(By.cssSelector("#FirstName"), newUser.getName());
+        type(By.cssSelector("#LastName"), newUser.getSurname());
+        type(By.cssSelector("#Email"), newUser.getEmail());
+        type(By.cssSelector("#Password"), newUser.getPassword());
+        type(By.cssSelector("#ConfirmPassword"), newUser.getRepeat_password());
+    }
+
 
 
     public boolean isLogOutButtonPresent() {

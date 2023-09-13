@@ -3,6 +3,7 @@ package nat.demowebshop.framework;
 import nat.demowebshop.framework.AddProductInCartHelper;
 import nat.demowebshop.framework.HomepageHelper;
 import nat.demowebshop.framework.UserHelper;
+import nat.demowebshop.models.NewUser;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -10,7 +11,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.util.concurrent.TimeUnit;
 
-public class ApplicationManager  {
+public class ApplicationManager {
     String browser;
     WebDriver driver;
 
@@ -19,17 +20,17 @@ public class ApplicationManager  {
     AddProductInCartHelper addProductInCartHelper;
 
     public ApplicationManager(String browser) {
-             this.browser=browser;
+        this.browser = browser;
     }
 
     public void init() {
         System.err.close(); //закрывает в консоли системную инф-цию
 
-        if (browser.equalsIgnoreCase("chrome")){
+        if (browser.equalsIgnoreCase("chrome")) {
             driver = new ChromeDriver();
-        }else if (browser.equalsIgnoreCase("firefox")) {
+        } else if (browser.equalsIgnoreCase("firefox")) {
             driver = new FirefoxDriver();
-        }else if (browser.equalsIgnoreCase("microsoftedge")) {
+        } else if (browser.equalsIgnoreCase("microsoftedge")) {
             driver = new EdgeDriver();
         }
 
@@ -57,6 +58,5 @@ public class ApplicationManager  {
     public void stop() {
         driver.quit();
     }
-
 
 }
