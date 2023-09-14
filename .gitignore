@@ -1,4 +1,9 @@
 .gradle
+build/classes/
+build/generated/
+build/reports/
+build/resources/
+build/tmp/
 **/build/
 !src/**/build/
 

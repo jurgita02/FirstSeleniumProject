@@ -1,0 +1,15 @@
+2195 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\AIT TR Student\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+7204 [main] INFO  org.nat.demowebshop.TestBase1 -- Start test
+20329 [main] ERROR org.nat.demowebshop.TestBase1 -- FAILED: addNewUserPositiveTestFromDataProviderWithCSV Screenshot: C:\QA\QA25_FirstSeleniumProgect\screenshots\screen1694635490.png
+20329 [main] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+20329 [main] ERROR org.nat.demowebshop.TestBase1 -- ******************************
+20332 [main] INFO  org.nat.demowebshop.TestBase1 -- Start test
+33085 [main] ERROR org.nat.demowebshop.TestBase1 -- FAILED: addNewUserPositiveTestFromDataProviderWithCSV Screenshot: C:\QA\QA25_FirstSeleniumProgect\screenshots\screen1694635503.png
+33086 [main] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+33086 [main] ERROR org.nat.demowebshop.TestBase1 -- ******************************
+33087 [main] INFO  org.nat.demowebshop.TestBase1 -- Start test
+45855 [main] ERROR org.nat.demowebshop.TestBase1 -- FAILED: addNewUserPositiveTestFromDataProviderWithCSV Screenshot: C:\QA\QA25_FirstSeleniumProgect\screenshots\screen1694635516.png
+45855 [main] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+45856 [main] ERROR org.nat.demowebshop.TestBase1 -- ******************************
