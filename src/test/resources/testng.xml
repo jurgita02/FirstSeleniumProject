@@ -3,7 +3,7 @@
 <suite name="Quick" verbose="1" >
     <test name="Quick" >
         <classes>
-            <class name="org.nat.demowebshop.CreateAccountTests1" />
+            <class name="org.nat.demowebshop.HomepageTests1" />
         </classes>
     </test>
 

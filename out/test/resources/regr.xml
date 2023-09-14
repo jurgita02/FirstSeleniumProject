@@ -6,11 +6,15 @@
             <class name="org.nat.demowebshop.LoginTests">
                 <methods>
                      <exclude name=".*Negative.*"/>
+                     <exclude name=".*Screencast.*"/>
                 </methods>
             </class>
-            <class name="org.nat.demowebshop.HomepageTests1" />
+            <class name="org.nat.demowebshop.CreateAccountTests1" >
+                <methods>
+                    <exclude name=".*DataProvider.*"/>
+                </methods>
+            </class>
             <class name="org.nat.demowebshop.AddProductInCartTest" />
         </classes>
     </test>
-
 </suite>

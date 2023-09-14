@@ -1,0 +1,39 @@
+2035 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\AIT TR Student\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+6032 [main] INFO  org.nat.demowebshop.TestBase1 -- Start test
+9784 [main] INFO  org.nat.demowebshop.TestBase1 -- PASSED: AddProductPositiveTest
+9785 [main] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+9785 [main] ERROR org.nat.demowebshop.TestBase1 -- ******************************
+9793 [main] INFO  org.nat.demowebshop.TestBase1 -- Start test
+21836 [main] INFO  org.nat.demowebshop.TestBase1 -- PASSED: UserLoginNegativeWithoutEmailTest
+21837 [main] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+21837 [main] ERROR org.nat.demowebshop.TestBase1 -- ******************************
+21839 [main] INFO  org.nat.demowebshop.TestBase1 -- Start test
+23366 [main] INFO  org.nat.demowebshop.TestBase1 -- PASSED: UserLoginPositiveTest
+23369 [main] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+23369 [main] ERROR org.nat.demowebshop.TestBase1 -- ******************************
+23374 [main] INFO  org.nat.demowebshop.TestBase1 -- Start test
+45004 [main] INFO  org.nat.demowebshop.TestBase1 -- PASSED: UserLoginPositiveTestWithScreencast
+45004 [main] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+45004 [main] ERROR org.nat.demowebshop.TestBase1 -- ******************************
+45021 [main] INFO  org.nat.demowebshop.TestBase1 -- Start test
+68051 [main] ERROR org.nat.demowebshop.TestBase1 -- FAILED: addNewUserPositiveTestFromDataProviderWithCSV Screenshot: C:\QA\QA25_FirstSeleniumProgect\screenshots\screen1694717439.png
+68051 [main] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+68051 [main] ERROR org.nat.demowebshop.TestBase1 -- ******************************
+68052 [main] INFO  org.nat.demowebshop.TestBase1 -- Start test
+70848 [main] INFO  org.nat.demowebshop.TestBase1 -- PASSED: addNewUserPositiveTestFromDataProviderWithCSV
+70849 [main] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+70851 [main] ERROR org.nat.demowebshop.TestBase1 -- ******************************
+70854 [main] INFO  org.nat.demowebshop.TestBase1 -- Start test
+84322 [main] INFO  org.nat.demowebshop.TestBase1 -- PASSED: addNewUserPositiveTestFromDataProviderWithCSV
+84323 [main] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+84323 [main] ERROR org.nat.demowebshop.TestBase1 -- ******************************
+84324 [main] INFO  org.nat.demowebshop.TestBase1 -- Start test
+97579 [main] INFO  org.nat.demowebshop.TestBase1 -- PASSED: existedUserRegistrationNegativeTest
+97579 [main] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+97579 [main] ERROR org.nat.demowebshop.TestBase1 -- ******************************
+97582 [main] INFO  org.nat.demowebshop.TestBase1 -- Start test
+108374 [main] INFO  org.nat.demowebshop.TestBase1 -- PASSED: isHomeComponentPresentTest
+108374 [main] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+108374 [main] ERROR org.nat.demowebshop.TestBase1 -- ******************************

@@ -7,6 +7,7 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+import utils.DataProviders;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -35,23 +36,8 @@ public class CreateAccountTests1 extends TestBase1 {
                app.getUser().clickOnRegistrationButton();
                Assert.assertTrue(app.getUser().isAlertPresent());
         }
-    @DataProvider
-    public Iterator<Object[]> newUserRegistrationWithCSVFile() throws IOException {
-        List<Object[]> list=new ArrayList<>();
-        BufferedReader reader = new BufferedReader(new FileReader(new File("src/test/resources/userRegistration.csv")));
-        String line = reader.readLine();
-        while (line !=null) {
-            String[] split = line.split(",");
-            list.add(new Object[]{new NewUser().setName(split[0])
-                    .setSurname(split[1])
-                    .setEmail(split[2])
-                    .setPassword(split[3])
-                    .setRepeat_password(split[4])});
-            line = reader.readLine();
-        }
-        return list.iterator();
-    }
-    @Test(dataProvider="newUserRegistrationWithCSVFile")
+
+    @Test(dataProvider="newUserRegistrationWithCSVFile", dataProviderClass= DataProviders.class)
     public void addNewUserPositiveTestFromDataProviderWithCSV(NewUser newUser){
        app.getUser().click(By.xpath("//label[text()='Female']"));
 
