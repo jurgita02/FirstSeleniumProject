@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.nat.demowebshop.AddProductInCartTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-09-11T20:22:24" hostname="DESKTOP-OS617JJ" time="2.243">
+  <properties/>
+  <testcase name="AddProductPositiveTest" classname="org.nat.demowebshop.AddProductInCartTest" time="2.243"/>
+  <system-out><![CDATA[22:22:21.833 [Test worker] INFO  org.nat.demowebshop.TestBase1 -- Start test
+22:22:27.115 [Test worker] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+]]></system-out>
+  <system-err><![CDATA[JavaScript warning: https://demowebshop.tricentis.com/Scripts/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demowebshop.tricentis.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demowebshop.tricentis.com."
+JavaScript warning: https://demowebshop.tricentis.com/Scripts/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://demowebshop.tricentis.com/Scripts/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+]]></system-err>
+</testsuite>

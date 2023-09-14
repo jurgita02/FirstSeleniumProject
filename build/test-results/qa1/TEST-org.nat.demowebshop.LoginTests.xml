@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.nat.demowebshop.LoginTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-09-11T20:22:52" hostname="DESKTOP-OS617JJ" time="3.005">
+  <properties/>
+  <testcase name="UserLoginNegativeWithoutEmailTest" classname="org.nat.demowebshop.LoginTests" time="1.261"/>
+  <testcase name="UserLoginPositiveTest" classname="org.nat.demowebshop.LoginTests" time="1.713"/>
+  <system-out><![CDATA[22:22:52.225 [Test worker] INFO  org.nat.demowebshop.TestBase1 -- Start test
+22:22:53.509 [Test worker] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+22:22:53.511 [Test worker] INFO  org.nat.demowebshop.TestBase1 -- Start test
+22:22:55.254 [Test worker] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.nat.demowebshop.CreateAccountTests1" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-09-11T20:22:38" hostname="DESKTOP-OS617JJ" time="2.971">
+  <properties/>
+  <testcase name="existedUserRegistrationNegativeTest" classname="org.nat.demowebshop.CreateAccountTests1" time="2.971"/>
+  <system-out><![CDATA[22:22:27.119 [Test worker] INFO  org.nat.demowebshop.TestBase1 -- Start test
+22:22:41.513 [Test worker] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
