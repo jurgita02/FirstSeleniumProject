@@ -1,0 +1,11 @@
+513  [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\Alber\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+2502 [main] INFO  org.nat.demowebshop.TestBase1 -- Start test
+5276 [main] INFO  org.nat.demowebshop.TestBase1 -- PASSED: addNewUserPositiveTestFromDataProviderWithCSV
+5277 [main] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+5277 [main] ERROR org.nat.demowebshop.TestBase1 -- ******************************
+5278 [main] INFO  org.nat.demowebshop.TestBase1 -- Start test
+17812 [main] INFO  org.nat.demowebshop.TestBase1 -- PASSED: existedUserRegistrationNegativeTest
+17812 [main] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+17812 [main] ERROR org.nat.demowebshop.TestBase1 -- ******************************

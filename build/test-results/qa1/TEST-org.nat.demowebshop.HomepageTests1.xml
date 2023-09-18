@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.nat.demowebshop.HomepageTests1" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-09-11T20:22:52" hostname="DESKTOP-OS617JJ" time="0.024">
-  <properties/>
-  <testcase name="isHomeComponentPresentTest" classname="org.nat.demowebshop.HomepageTests1" time="0.024"/>
-  <system-out><![CDATA[22:22:41.517 [Test worker] INFO  org.nat.demowebshop.TestBase1 -- Start test
-22:22:52.220 [Test worker] INFO  org.nat.demowebshop.TestBase1 -- Stop test
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

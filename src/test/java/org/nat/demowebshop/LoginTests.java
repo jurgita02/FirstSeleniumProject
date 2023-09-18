@@ -27,7 +27,7 @@ public class LoginTests extends TestBase1 {
     @Test
     public void UserLoginNegativeWithoutEmailTest() {
         app.getUser().clickOnLoginButton();
-        app.getUser().fillLoginRegistrationForm(new User().setPassword("Pnata2023!"));
+        app.getUser().fillLoginRegistrationForm(new User().setPassword("Qwerty123456$"));
         app.getUser().clickLoginButton2();
         Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//li[text()='No customer account found']")));
     }

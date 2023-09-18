@@ -51,13 +51,13 @@ public class UserHelper extends HelperBase{
 
     public void login() {
         clickOnLoginButton();
-        fillLoginRegistrationForm(new User().setEmail("n010@gmail.com").setPassword("Pnata2023!"));
+        fillLoginRegistrationForm(new User().setEmail("jurgita@gmail.com").setPassword("Qwerty123456$"));
         clickLoginButton2();
     }
     public void loginWithScreencast() {
         clickOnLoginButton();
         pause(500);
-        fillLoginRegistrationForm(new User().setEmail("n010@gmail.com").setPassword("Pnata2023!"));
+        fillLoginRegistrationForm(new User().setEmail("jurgita@gmail.com").setPassword("Qwerty123456$"));
         pause(1000);
         clickLoginButton2();
     }

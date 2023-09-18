@@ -1,0 +1,7 @@
+522  [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\Alber\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+2589 [main] INFO  org.nat.demowebshop.TestBase1 -- Start test
+2635 [main] INFO  org.nat.demowebshop.TestBase1 -- PASSED: isHomeComponentPresentTest
+2635 [main] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+2635 [main] ERROR org.nat.demowebshop.TestBase1 -- ******************************

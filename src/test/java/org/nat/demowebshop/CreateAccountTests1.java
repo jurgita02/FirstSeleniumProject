@@ -29,10 +29,10 @@ public class CreateAccountTests1 extends TestBase1 {
         public void existedUserRegistrationNegativeTest () {
             app.getUser().click(By.xpath("//label[text()='Female']"));
 
-            app.getUser().type(By.cssSelector("#FirstName"), "Nat");
-            app.getUser().type(By.cssSelector("#LastName"), "Poh");
-               app.getUser().fillLoginRegistrationForm(new User().setEmail("n010@gmail.com").setPassword("Pnata2023!"));
-               app.getUser().type(By.cssSelector("#ConfirmPassword"), "Pnata2023!");
+            app.getUser().type(By.cssSelector("#FirstName"), "Jurga");
+            app.getUser().type(By.cssSelector("#LastName"), "Jurgenas");
+               app.getUser().fillLoginRegistrationForm(new User().setEmail("jurgita@gmail.com").setPassword("Qwerty123456$"));
+               app.getUser().type(By.cssSelector("#ConfirmPassword"), "Qwerty123456$");
                app.getUser().clickOnRegistrationButton();
                Assert.assertTrue(app.getUser().isAlertPresent());
         }

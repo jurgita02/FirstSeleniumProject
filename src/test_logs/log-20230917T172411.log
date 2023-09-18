@@ -1,0 +1,15 @@
+623  [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\Alber\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+2563 [main] INFO  org.nat.demowebshop.TestBase1 -- Start test
+3272 [main] INFO  org.nat.demowebshop.TestBase1 -- PASSED: UserLoginNegativeWithoutEmailTest
+3272 [main] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+3272 [main] ERROR org.nat.demowebshop.TestBase1 -- ******************************
+3274 [main] INFO  org.nat.demowebshop.TestBase1 -- Start test
+14158 [main] ERROR org.nat.demowebshop.TestBase1 -- FAILED: UserLoginPositiveTest Screenshot: C:\QA\FirstSeleniumProject\screenshots\screen1694964265.png
+14158 [main] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+14158 [main] ERROR org.nat.demowebshop.TestBase1 -- ******************************
+14159 [main] INFO  org.nat.demowebshop.TestBase1 -- Start test
+26795 [main] ERROR org.nat.demowebshop.TestBase1 -- FAILED: UserLoginPositiveTestWithScreencast Screenshot: C:\QA\FirstSeleniumProject\screenshots\screen1694964278.png
+26795 [main] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+26795 [main] ERROR org.nat.demowebshop.TestBase1 -- ******************************

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.nat.demowebshop.AddProductInCartTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-09-17T15:52:27" hostname="KOMPIUTERIS" time="1.752">
+  <properties/>
+  <testcase name="AddProductPositiveTest" classname="org.nat.demowebshop.AddProductInCartTest" time="1.752"/>
+  <system-out><![CDATA[17:52:26.119 [Test worker] INFO  org.nat.demowebshop.TestBase1 -- Start test
+17:52:29.643 [Test worker] INFO  org.nat.demowebshop.TestBase1 -- PASSED: AddProductPositiveTest
+17:52:29.643 [Test worker] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+17:52:29.643 [Test worker] ERROR org.nat.demowebshop.TestBase1 -- ******************************
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

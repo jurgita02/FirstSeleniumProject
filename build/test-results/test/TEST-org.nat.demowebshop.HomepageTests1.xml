@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.nat.demowebshop.HomepageTests1" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-09-17T15:53:05" hostname="KOMPIUTERIS" time="0.017">
+  <properties/>
+  <testcase name="isHomeComponentPresentTest" classname="org.nat.demowebshop.HomepageTests1" time="0.017"/>
+  <system-out><![CDATA[17:52:55.110 [Test worker] INFO  org.nat.demowebshop.TestBase1 -- Start test
+17:53:05.586 [Test worker] INFO  org.nat.demowebshop.TestBase1 -- PASSED: isHomeComponentPresentTest
+17:53:05.586 [Test worker] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+17:53:05.586 [Test worker] ERROR org.nat.demowebshop.TestBase1 -- ******************************
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

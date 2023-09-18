@@ -1,0 +1,15 @@
+532  [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\Alber\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+2516 [main] INFO  org.nat.demowebshop.TestBase1 -- Start test
+3474 [main] INFO  org.nat.demowebshop.TestBase1 -- PASSED: UserLoginNegativeWithoutEmailTest
+3474 [main] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+3474 [main] ERROR org.nat.demowebshop.TestBase1 -- ******************************
+3476 [main] INFO  org.nat.demowebshop.TestBase1 -- Start test
+4540 [main] INFO  org.nat.demowebshop.TestBase1 -- PASSED: UserLoginPositiveTest
+4541 [main] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+4541 [main] ERROR org.nat.demowebshop.TestBase1 -- ******************************
+4542 [main] INFO  org.nat.demowebshop.TestBase1 -- Start test
+22904 [main] INFO  org.nat.demowebshop.TestBase1 -- PASSED: UserLoginPositiveTestWithScreencast
+22904 [main] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+22904 [main] ERROR org.nat.demowebshop.TestBase1 -- ******************************

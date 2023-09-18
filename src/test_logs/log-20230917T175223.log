@@ -1,0 +1,28 @@
+2754 [Test worker] INFO  org.nat.demowebshop.TestBase1 -- Start test
+6278 [Test worker] INFO  org.nat.demowebshop.TestBase1 -- PASSED: AddProductPositiveTest
+6278 [Test worker] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+6278 [Test worker] ERROR org.nat.demowebshop.TestBase1 -- ******************************
+6286 [Test worker] INFO  org.nat.demowebshop.TestBase1 -- Start test
+30136 [Test worker] ERROR org.nat.demowebshop.TestBase1 -- FAILED: addNewUserPositiveTestFromDataProviderWithCSV Screenshot: C:\QA\FirstSeleniumProject\screenshots\screen1694965973.png
+30144 [Test worker] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+30144 [Test worker] ERROR org.nat.demowebshop.TestBase1 -- ******************************
+30146 [Test worker] INFO  org.nat.demowebshop.TestBase1 -- Start test
+31745 [Test worker] INFO  org.nat.demowebshop.TestBase1 -- PASSED: existedUserRegistrationNegativeTest
+31745 [Test worker] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+31745 [Test worker] ERROR org.nat.demowebshop.TestBase1 -- ******************************
+31745 [Test worker] INFO  org.nat.demowebshop.TestBase1 -- Start test
+42221 [Test worker] INFO  org.nat.demowebshop.TestBase1 -- PASSED: isHomeComponentPresentTest
+42221 [Test worker] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+42221 [Test worker] ERROR org.nat.demowebshop.TestBase1 -- ******************************
+42221 [Test worker] INFO  org.nat.demowebshop.TestBase1 -- Start test
+43257 [Test worker] INFO  org.nat.demowebshop.TestBase1 -- PASSED: UserLoginNegativeWithoutEmailTest
+43257 [Test worker] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+43257 [Test worker] ERROR org.nat.demowebshop.TestBase1 -- ******************************
+43257 [Test worker] INFO  org.nat.demowebshop.TestBase1 -- Start test
+44769 [Test worker] INFO  org.nat.demowebshop.TestBase1 -- PASSED: UserLoginPositiveTest
+44769 [Test worker] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+44769 [Test worker] ERROR org.nat.demowebshop.TestBase1 -- ******************************
+44770 [Test worker] INFO  org.nat.demowebshop.TestBase1 -- Start test
+76268 [Test worker] INFO  org.nat.demowebshop.TestBase1 -- PASSED: UserLoginPositiveTestWithScreencast
+76273 [Test worker] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+76273 [Test worker] ERROR org.nat.demowebshop.TestBase1 -- ******************************

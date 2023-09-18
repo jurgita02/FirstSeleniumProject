@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.nat.demowebshop.LoginTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-09-17T15:53:05" hostname="KOMPIUTERIS" time="34.027">
+  <properties/>
+  <testcase name="UserLoginNegativeWithoutEmailTest" classname="org.nat.demowebshop.LoginTests" time="1.016"/>
+  <testcase name="UserLoginPositiveTest" classname="org.nat.demowebshop.LoginTests" time="1.48"/>
+  <testcase name="UserLoginPositiveTestWithScreencast" classname="org.nat.demowebshop.LoginTests" time="20.889"/>
+  <system-out><![CDATA[17:53:05.586 [Test worker] INFO  org.nat.demowebshop.TestBase1 -- Start test
+17:53:06.622 [Test worker] INFO  org.nat.demowebshop.TestBase1 -- PASSED: UserLoginNegativeWithoutEmailTest
+17:53:06.622 [Test worker] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+17:53:06.622 [Test worker] ERROR org.nat.demowebshop.TestBase1 -- ******************************
+17:53:06.622 [Test worker] INFO  org.nat.demowebshop.TestBase1 -- Start test
+17:53:08.134 [Test worker] INFO  org.nat.demowebshop.TestBase1 -- PASSED: UserLoginPositiveTest
+17:53:08.134 [Test worker] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+17:53:08.134 [Test worker] ERROR org.nat.demowebshop.TestBase1 -- ******************************
+17:53:08.135 [Test worker] INFO  org.nat.demowebshop.TestBase1 -- Start test
+17:53:39.633 [Test worker] INFO  org.nat.demowebshop.TestBase1 -- PASSED: UserLoginPositiveTestWithScreencast
+17:53:39.638 [Test worker] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+17:53:39.638 [Test worker] ERROR org.nat.demowebshop.TestBase1 -- ******************************
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

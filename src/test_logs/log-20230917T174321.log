@@ -1,0 +1,31 @@
+928  [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\Alber\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+4992 [main] INFO  org.nat.demowebshop.TestBase1 -- Start test
+5726 [main] INFO  org.nat.demowebshop.TestBase1 -- PASSED: UserLoginNegativeWithoutEmailTest
+5726 [main] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+5726 [main] ERROR org.nat.demowebshop.TestBase1 -- ******************************
+5727 [main] INFO  org.nat.demowebshop.TestBase1 -- Start test
+6799 [main] INFO  org.nat.demowebshop.TestBase1 -- PASSED: UserLoginPositiveTest
+6799 [main] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+6799 [main] ERROR org.nat.demowebshop.TestBase1 -- ******************************
+6801 [main] INFO  org.nat.demowebshop.TestBase1 -- Start test
+41701 [main] INFO  org.nat.demowebshop.TestBase1 -- PASSED: UserLoginPositiveTestWithScreencast
+41708 [main] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+41708 [main] ERROR org.nat.demowebshop.TestBase1 -- ******************************
+41708 [main] INFO  org.nat.demowebshop.TestBase1 -- Start test
+56275 [main] INFO  org.nat.demowebshop.TestBase1 -- PASSED: AddProductPositiveTest
+56275 [main] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+56275 [main] ERROR org.nat.demowebshop.TestBase1 -- ******************************
+56286 [main] INFO  org.nat.demowebshop.TestBase1 -- Start test
+69214 [main] INFO  org.nat.demowebshop.TestBase1 -- PASSED: addNewUserPositiveTestFromDataProviderWithCSV
+69214 [main] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+69214 [main] ERROR org.nat.demowebshop.TestBase1 -- ******************************
+69215 [main] INFO  org.nat.demowebshop.TestBase1 -- Start test
+82994 [main] INFO  org.nat.demowebshop.TestBase1 -- PASSED: existedUserRegistrationNegativeTest
+82995 [main] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+82995 [main] ERROR org.nat.demowebshop.TestBase1 -- ******************************
+82998 [main] INFO  org.nat.demowebshop.TestBase1 -- Start test
+93941 [main] INFO  org.nat.demowebshop.TestBase1 -- PASSED: isHomeComponentPresentTest
+93941 [main] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+93941 [main] ERROR org.nat.demowebshop.TestBase1 -- ******************************

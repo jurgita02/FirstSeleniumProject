@@ -1,0 +1,31 @@
+551  [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\Alber\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+2592 [main] INFO  org.nat.demowebshop.TestBase1 -- Start test
+2636 [main] INFO  org.nat.demowebshop.TestBase1 -- PASSED: isHomeComponentPresentTest
+2636 [main] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+2636 [main] ERROR org.nat.demowebshop.TestBase1 -- ******************************
+2646 [main] INFO  org.nat.demowebshop.TestBase1 -- Start test
+4450 [main] INFO  org.nat.demowebshop.TestBase1 -- PASSED: addNewUserPositiveTestFromDataProviderWithCSV
+4456 [main] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+4456 [main] ERROR org.nat.demowebshop.TestBase1 -- ******************************
+4457 [main] INFO  org.nat.demowebshop.TestBase1 -- Start test
+17636 [main] INFO  org.nat.demowebshop.TestBase1 -- PASSED: existedUserRegistrationNegativeTest
+17636 [main] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+17636 [main] ERROR org.nat.demowebshop.TestBase1 -- ******************************
+17638 [main] INFO  org.nat.demowebshop.TestBase1 -- Start test
+21328 [main] INFO  org.nat.demowebshop.TestBase1 -- PASSED: AddProductPositiveTest
+21328 [main] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+21328 [main] ERROR org.nat.demowebshop.TestBase1 -- ******************************
+21328 [main] INFO  org.nat.demowebshop.TestBase1 -- Start test
+33546 [main] INFO  org.nat.demowebshop.TestBase1 -- PASSED: UserLoginNegativeWithoutEmailTest
+33546 [main] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+33546 [main] ERROR org.nat.demowebshop.TestBase1 -- ******************************
+33548 [main] INFO  org.nat.demowebshop.TestBase1 -- Start test
+34861 [main] INFO  org.nat.demowebshop.TestBase1 -- PASSED: UserLoginPositiveTest
+34862 [main] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+34862 [main] ERROR org.nat.demowebshop.TestBase1 -- ******************************
+34862 [main] INFO  org.nat.demowebshop.TestBase1 -- Start test
+61291 [main] INFO  org.nat.demowebshop.TestBase1 -- PASSED: UserLoginPositiveTestWithScreencast
+61291 [main] INFO  org.nat.demowebshop.TestBase1 -- Stop test
+61291 [main] ERROR org.nat.demowebshop.TestBase1 -- ******************************
