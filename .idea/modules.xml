@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/QA25_FirstSeleniumProgect.iml" filepath="$PROJECT_DIR$/.idea/modules/QA25_FirstSeleniumProgect.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/QA25_FirstSeleniumProgect.main.iml" filepath="$PROJECT_DIR$/.idea/modules/QA25_FirstSeleniumProgect.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/QA25_FirstSeleniumProgect.test.iml" filepath="$PROJECT_DIR$/.idea/modules/QA25_FirstSeleniumProgect.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FirstSeleniumProject.iml" filepath="$PROJECT_DIR$/.idea/modules/FirstSeleniumProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FirstSeleniumProject.main.iml" filepath="$PROJECT_DIR$/.idea/modules/FirstSeleniumProject.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FirstSeleniumProject.test.iml" filepath="$PROJECT_DIR$/.idea/modules/FirstSeleniumProject.test.iml" />
     </modules>
   </component>
 </project>
