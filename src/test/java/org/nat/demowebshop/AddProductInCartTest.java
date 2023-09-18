@@ -6,7 +6,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-//test for check add product in cart
+
 public class AddProductInCartTest extends TestBase1 {
     @BeforeMethod
     public void ensurePrecondition() {
